@@ -1,0 +1,9 @@
+@RestController
+public class demoController{
+
+    @GetMapping("/msg")
+    public String showMsg(){
+        return "this is hello world ...!";
+    }
+
+}
